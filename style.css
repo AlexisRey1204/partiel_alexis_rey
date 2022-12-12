@@ -1,0 +1,270 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-weight:500;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF0026;
+    vertical-align: middle;
+    height: 25vh;
+    padding: 0px 300px;
+}
+
+.logo_header {
+    height: 50px;
+}
+
+.bouton_annonces {
+	font-size: 30px;
+    font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+.bannière {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 750px;
+    background-image:url(img/15.png);
+    padding: 90px 0px;
+}
+
+.punchline{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.278);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding:4px;
+}
+
+.images_bannière {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+#mcdo {
+    height: 40vh;
+    width: 35vh;
+    background-image:url(img/mcdo.jpg);  
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100% 70%;
+}
+
+#coca {
+    height: 40vh;
+    width: 52vh;
+    background-image:url(img/coca.png);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+
+}
+
+#voiture {
+    height: 40vh;
+    width: 35vh;
+    background-image:url(img/voiture.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.bouton_bas {
+    font-size: 30px;
+    font-weight: bold;
+	color: white;
+	text-decoration: none;
+    background-color: #198754;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.annonces {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.titre_annonces {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    width: 90vw;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+.card {
+    height: 490px;
+    width: 355px;
+    background-color: white;
+    border: solid rgb(205, 205, 205) 1px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+.card_image {
+    height: 250px;
+    width: 352px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+#plus {
+    background-image:url(img/+.png);  
+}
+
+#netflix {
+    background-image:url(img/netflix.png);  
+}
+
+#jhon {
+    background-image:url(img/redbull.jpg);  
+}
+
+#deezer {
+    background-image:url(img/deezer.jpg);  
+}
+
+#mcdonalds {
+    background-image:url(img/mcdo.jpg);  
+}
+
+#jantes {
+    background-image:url(img/voiture.jpg);  
+}
+
+.card_text {
+    text-align: center;
+}
+
+.card_button {
+    margin-bottom: 25px;
+}
+
+.bouton_carte {
+    font-size: 13px;
+    font-weight: bold;
+	color: white;
+	text-decoration: none;
+    background-color: #198754;
+    padding: 15px 55px;
+    border-radius: 5px;
+}
+
+.infos {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding-bottom: 100px;
+    background-color: #EAE5E5;
+}
+
+.stats_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.stats {
+    margin: auto 0;
+    text-align: center;
+}
+
+.chiffre {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.infos_texte {
+    width: 50vw;
+    text-align: center;
+    line-height :2em;
+}
+
+.confiance {
+   display: flex;
+   flex-direction: column;
+}
+
+.entreprises {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+
+.texte_italique {
+    color: #696969;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.texte_italique {
+    width: 400px;
+    
+}
+
+.top img {
+    height: 90px;
+}
+
+.reseau {
+    height: 50px;
+    width: 50px;
+}
+
+#facebook {
+    background-image:url(img/facebook.png);  
+}
+
+#instagram {
+    background-image:url(img/instagram.png);  
+}
+
+#twitter {
+    background-image:url(img/twitter.png);  
+}
+
+#pinterest {
+    background-image:url(img/pinterest.png);  
+}
